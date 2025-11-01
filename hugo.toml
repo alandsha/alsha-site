@@ -1,0 +1,56 @@
+baseURL = "https://www.your-domain.com/"  # <-- set your real domain and keep trailing slash
+title = "AL&SHA LLC — B2B Services"
+languageCode = "en"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  description = "B2B services: licensing & subscriptions ops, automation, e-commerce, marketing, and design."
+  author = "AL&SHA LLC"
+  defaultTheme = "light"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  env = "production"
+  images = ["/images/og.jpg"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[minify]
+  disableXML = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.7
+  filename = "sitemap.xml"
+
+[permalinks]
+  posts = "/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[pagination]
+  pagerSize = 10
+
+[menu]
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 10
+  [[menu.main]]
+    name = "Solutions"
+    url = "/solutions/"
+    weight = 20
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+  [[menu.main]]
+    name = "Legal"
+    url = "/legal/"
+    weight = 50
