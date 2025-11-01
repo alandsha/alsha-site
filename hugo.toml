@@ -15,9 +15,18 @@ canonifyURLs = true
   images = ["/images/hero.jpg"]
 
 [menu]
-  [[menu.main]] name = "Home"     url = "/"          weight = 10
-  [[menu.main]] name = "Contact"  url = "/contact/"  weight = 20
-  [[menu.main]] name = "Services" url = "/services/" weight = 30
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 20
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 30
 
 [minify]
   disableXML = true
