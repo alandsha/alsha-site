@@ -9,25 +9,20 @@ canonifyURLs = true
   pagerSize = 10
 
 [params]
-  description = "Ideas in Motion  Design  Marketing  AI  B2B Ops"
+  description = "Lean B2B studio  licensing & subscriptions ops, automation, marketing, and design."
   defaultTheme = "light"
-  disableThemeToggle = true
-  label = { text = "Al & Sha" }
   images = ["/images/hero.jpg"]
+  disableThemeToggle = true
+
+[params.label]
+  text = ""                         # vacío para que solo se vea el icono
+  icon = "/images/alandshalogo.png" # tu logo
+  iconHeight = 42                   # ajusta 3448 según veas
 
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 20
-  [[menu.main]]
-    name = "B2B Services"
-    url = "/services/"
-    weight = 30
+  [[menu.main]] name = "Home"     url = "/"          weight = 10
+  [[menu.main]] name = "Contact"  url = "/contact/"  weight = 20
+  [[menu.main]] name = "Services" url = "/services/" weight = 30
 
 [minify]
   disableXML = true
@@ -42,7 +37,3 @@ canonifyURLs = true
 
 [markup.goldmark.renderer]
   unsafe = true
-[params.label]
-  text = ""                 # vacío para no duplicar texto al lado del logo
-  icon = "/images/alandshalogo.png"
-  iconHeight = 42           # prueba 3648 según veas[params]  disableThemeToggle = true
