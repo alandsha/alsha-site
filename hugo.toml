@@ -1,5 +1,5 @@
-baseURL = "https://www.your-domain.com/"  # <-- set your real domain and keep trailing slash
-title = "AL&SHA LLC — B2B Services"
+﻿baseURL = "https://alandsha.github.io/alsha-site/"  # <-- set your real domain and keep trailing slash
+title = "AL&SHA LLC â€” B2B Services"
 languageCode = "en"
 theme = "PaperMod"
 enableRobotsTXT = true
