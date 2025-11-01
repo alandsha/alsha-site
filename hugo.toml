@@ -1,4 +1,4 @@
-﻿baseURL = "https://alandsha.github.io/alsha-site/"  # <-- set your real domain and keep trailing slash
+baseURL = "https://alandsha.github.io/alsha-site/"  # <-- set your real domain and keep trailing slash
 title = "AL&SHA LLC â€” B2B Services"
 languageCode = "en"
 theme = "PaperMod"
@@ -54,3 +54,4 @@ enableRobotsTXT = true
     name = "Legal"
     url = "/legal/"
     weight = 50
+canonifyURLs = true
