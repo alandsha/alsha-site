@@ -1,4 +1,4 @@
-﻿baseURL = "https://alandsha.github.io/alsha-site/"
+baseURL = "https://alandsha.github.io/alsha-site/"
 title = "Al & Sha"
 languageCode = "en"
 theme = "PaperMod"
@@ -21,12 +21,14 @@ canonifyURLs = true
 
 [minify]
   disableXML = true
+
 [sitemap]
   changefreq = "weekly"
   priority = 0.7
   filename = "sitemap.xml"
+
 [permalinks]
   posts = "/:slug/"
+
 [markup.goldmark.renderer]
   unsafe = true
-
