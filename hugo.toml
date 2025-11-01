@@ -42,3 +42,7 @@ canonifyURLs = true
 
 [markup.goldmark.renderer]
   unsafe = true
+[params.label]
+  text = ""                 # vacío para no duplicar texto al lado del logo
+  icon = "/images/alandshalogo.png"
+  iconHeight = 42           # prueba 3648 según veas[params]  disableThemeToggle = true
