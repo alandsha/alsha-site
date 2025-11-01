@@ -15,14 +15,23 @@ canonifyURLs = true
   disableThemeToggle = true
 
 [params.label]
-  text = ""                         # vacío para que solo se vea el icono
-  icon = "/images/alandshalogo.png" # tu logo
-  iconHeight = 42                   # ajusta 3448 según veas
+  text = ""
+  icon = "/images/alandshalogo.png"
+  iconHeight = 42
 
 [menu]
-  [[menu.main]] name = "Home"     url = "/"          weight = 10
-  [[menu.main]] name = "Contact"  url = "/contact/"  weight = 20
-  [[menu.main]] name = "Services" url = "/services/" weight = 30
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 20
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 30
 
 [minify]
   disableXML = true
