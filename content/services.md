@@ -1,20 +1,23 @@
 ﻿---
 title: "Services"
-description: "B2B services for licensing & subscriptions ops, automation, e-commerce, marketing, and design."
+description: "Design, Animation, Marketing, AI-driven solutions  plus B2B services."
 draft: false
 ---
 
-### Licensing & Subscriptions Ops
-Account provisioning, renewals, vendor coordination, proof-of-purchase traceability, monthly Annex with cost reconciliation.
+<h2 class="section-title">SERVICES</h2>
 
-### Automation
-Workflow design (n8n/Make), integrations, AI-assisted operations, reporting pipelines.
+<ul class="lead" style="text-align:left;max-width:820px;margin:0 auto">
+  <li><strong>Animation:</strong> From concept to final product, our animation services bring stories to life for films, TV, commercials and VFX.</li>
+  <li><strong>Design:</strong> Digital & product design, visual branding and collateral.</li>
+  <li><strong>Marketing:</strong> Content & paid media, analytics (GA4/Looker) and CRO.</li>
+  <li><strong>AI-driven Solutions:</strong> Automation and workflow intelligence (n8n/Make).</li>
+  <li><strong>Online Store:</strong> Carefully crafted design products.</li>
+</ul>
 
-### E-commerce
-POD and FBA setup, storefronts, payment gateways, ops playbooks.
-
-### Marketing
-Content & paid media execution, measurement (GA4/Looker), conversion rate optimization.
-
-### Design
-Brand assets, commercial creatives, landing pages and sales collateral.
+<h3 class="section-title" style="margin-top:28px">B2B Services (Ops)</h3>
+<ul class="lead" style="text-align:left;max-width:820px;margin:0 auto">
+  <li><strong>Licensing & Subscriptions Ops:</strong> provisioning, renewals, vendor coordination, proof-of-purchase traceability.</li>
+  <li><strong>Monthly Annex & Reconciliation:</strong> itemized tools & receipts.</li>
+  <li><strong>E-commerce Enablement:</strong> POD/FBA/affiliates, gateways, storefronts, ops playbooks.</li>
+  <li><strong>Automation & Reporting:</strong> integrations, AI-assisted ops, dashboards.</li>
+</ul>

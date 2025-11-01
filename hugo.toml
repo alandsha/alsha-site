@@ -1,5 +1,5 @@
-baseURL = "https://alandsha.github.io/alsha-site/"
-title = "AL&SHA LLC  B2B Services"
+﻿baseURL = "https://alandsha.github.io/alsha-site/"
+title = "Al & Sha"
 languageCode = "en"
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -9,67 +9,23 @@ canonifyURLs = true
   pagerSize = 10
 
 [params]
-  description = "Lean B2B delivery: licensing & subscriptions ops, automation, e-commerce, marketing, design."
-  author = "AL&SHA LLC"
+  description = "Ideas in Motion  Design  Animation  Marketing  AI  B2B Ops"
   defaultTheme = "light"
-  env = "production"
-  ShowReadingTime = false
-  ShowShareButtons = false
-  disableSpecial1stPost = true
-  comments = false
-  images = ["/images/og.jpg"]
-  disableHLJS = true
-  # ancho más estrecho + tipografía mejor
-  contentWidth = "880px"
-
-  # Cabecera / branding
-  label = { text = "AL&SHA", icon = "/brand/logo.svg", iconHeight = 22 }
-
-  # CTA en navbar
-  [[params.navbarButtons]]
-    name = "Get a quote"
-    url = "/contact/"
-
-  # Redes
-  [[params.socialIcons]]
-    name = "email"
-    url  = "mailto:hello@your-domain.com"
-  [[params.socialIcons]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
+  label = { text = "Al & Sha" }
+  images = ["/images/hero.jpg"]
 
 [menu]
-  [[menu.main]]
-    name = "Services"
-    url = "/services/"
-    weight = 10
-  [[menu.main]]
-    name = "Solutions"
-    url = "/solutions/"
-    weight = 20
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 30
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 40
-  [[menu.main]]
-    name = "Legal"
-    url = "/legal/"
-    weight = 50
+  [[menu.main]] name = "Home"     url = "/"          weight = 10
+  [[menu.main]] name = "Contact"  url = "/contact/"  weight = 20
+  [[menu.main]] name = "Services" url = "/services/" weight = 30
 
 [minify]
   disableXML = true
-
 [sitemap]
   changefreq = "weekly"
   priority = 0.7
   filename = "sitemap.xml"
-
 [permalinks]
   posts = "/:slug/"
-
 [markup.goldmark.renderer]
   unsafe = true
