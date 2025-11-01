@@ -1,4 +1,4 @@
-baseURL = "https://alandsha.github.io/alsha-site/"
+﻿baseURL = "https://alandsha.github.io/alsha-site/"
 title = "Al & Sha"
 languageCode = "en"
 theme = "PaperMod"
@@ -24,7 +24,7 @@ canonifyURLs = true
     url = "/contact/"
     weight = 20
   [[menu.main]]
-    name = "Services"
+    name = "B2B Services"
     url = "/services/"
     weight = 30
 

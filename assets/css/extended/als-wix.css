@@ -1,44 +1,49 @@
-﻿/* ---- Base ---- */
-:root{ --content:#111827; --secondary:#6b7280; --border:#e5e7eb; }
+﻿:root{ --content:#111827; --secondary:#6b7280; --border:#e5e7eb; }
 body{ font-family: Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif !important; color:var(--content); }
 
 /* Títulos */
-h1,h2,h3,.page-title,.post-title{ font-family:"Playfair Display",Georgia,serif !important; letter-spacing:.2px; }
+h1,h2,h3,.page-title,.post-title{
+  font-family:"Playfair Display",Georgia,serif !important;
+  letter-spacing:.2px;
+}
 
-/* ---- Header estilo Wix ---- */
-.header, .navbar{ background:#f8fafc; }
+/* Header estilo Wix, centrado */
+.header,.navbar{ background:#f8fafc; }
 .navbar{
-  flex-direction:column;            /* brand arriba + menú debajo */
+  flex-direction:column;
   align-items:center;
-  gap:10px;
-  padding:18px 0;                   /* más aire */
+  gap:8px;
+  padding:16px 0 14px;
 }
 .navbar .brand{
   font-family:"Playfair Display",Georgia,serif;
-  font-size:32px;
-  font-weight:600;
-  letter-spacing:.3px;
+  font-size:30px;
+  font-weight:500;           /* más fino */
+  letter-spacing:.2px;
 }
-.logo-switches{ display:none !important; }  /* quita el icono de modo oscuro */
+.logo-switches{ display:none !important; }   /* quita toggle oscuro */
 .navbar .menu{
-  gap:28px;
+  gap:24px;
   font-weight:500;
 }
 .navbar .menu a{ color:#111827; opacity:.85; text-decoration:none; }
 .navbar .menu a:hover{ opacity:1; }
 
-/* ---- Contenido ---- */
+/* Contenido */
 .main{ max-width:1100px !important; }
 
-/* ---- Hero ---- */
-.hero-wrap{ text-align:center; padding:6px 0 12px; }
+/* Hero */
+.hero-wrap{ text-align:center; padding:4px 0 10px; }
 .hero-sub{ color:var(--secondary); margin:6px 0 12px; font-size:18px; }
 .hero-wide{ width:100vw; margin-left:50%; transform:translateX(-50%); box-shadow:0 8px 24px rgba(0,0,0,.05); }
 .hero-img{ width:100%; height:520px; object-fit:cover; }
 @media (max-width: 900px){ .hero-img{ height:300px; } }
 
-/* ---- Párrafo lead bajo el hero ---- */
-.lead{ color:#4b5563; line-height:1.8; font-size:18px; text-align:center; max-width:900px; margin:22px auto; }
+/* Lead */
+.lead{
+  color:#4b5563; line-height:1.8; font-size:18px;
+  text-align:center; max-width:900px; margin:22px auto;
+}
 
-/* ---- Footer ---- */
+/* Footer */
 footer.footer .container{ color:#6b7280; font-size:14px; }

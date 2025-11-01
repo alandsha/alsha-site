@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on AL&amp;SHA LLC — B2B Services</title>
-    <link>https://www.your-domain.com/categories/</link>
-    <description>Recent content in Categories on AL&amp;SHA LLC — B2B Services</description>
+    <title>Categories on Al &amp; Sha</title>
+    <link>https://alandsha.github.io/alsha-site/categories/</link>
+    <description>Recent content in Categories on Al &amp; Sha</description>
     <image>
-      <title>AL&amp;SHA LLC — B2B Services</title>
-      <url>https://www.your-domain.com/images/og.jpg</url>
-      <link>https://www.your-domain.com/images/og.jpg</link>
+      <title>Al &amp; Sha</title>
+      <url>https://alandsha.github.io/images/hero.jpg</url>
+      <link>https://alandsha.github.io/images/hero.jpg</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <atom:link href="https://www.your-domain.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alandsha.github.io/alsha-site/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

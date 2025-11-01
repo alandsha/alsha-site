@@ -1,6 +1,6 @@
 ﻿---
 title: "Al & Sha"
-description: "Ideas in Motion  Design  Animation  Marketing  AI  B2B Ops"
+description: "Ideas in Motion  Design  Marketing  AI  B2B Ops"
 draft: false
 layout: "list"
 hideMeta: true
@@ -14,8 +14,7 @@ hideMeta: true
 </div>
 
 <p class="lead">
-  Al&Sha offers a wide spectrum of creative services, from online retail to animation. The expertise
-  spans <strong>design</strong>, <strong>animation</strong>, <strong>marketing</strong>, and <strong>AI-driven solutions</strong>,
-  providing innovative and tailored approaches to meet diverse needs.
+  We run lean <strong>B2B services</strong> to turn tools and ideas into results:
+  licensing &amp; subscriptions operations, <strong>automation</strong>, <strong>e-commerce</strong> enablement,
+  <strong>marketing</strong>, and <strong>design</strong>. Clear scope, quick execution, clean reporting.
 </p>
-
