@@ -10,6 +10,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
+    <loc>https://alandsha.github.io/alsha-site/services/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
     <loc>https://alandsha.github.io/alsha-site/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -19,10 +23,6 @@
     <priority>0.7</priority>
   </url><url>
     <loc>https://alandsha.github.io/alsha-site/legal/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url><url>
-    <loc>https://alandsha.github.io/alsha-site/services/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>

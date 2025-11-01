@@ -1,6 +1,6 @@
 ﻿---
 title: "Al & Sha"
-description: "Ideas in Motion  Design  Marketing  AI  B2B Ops"
+description: "Lean B2B  Technology + Art  Ops that ship"
 draft: false
 layout: "list"
 hideMeta: true
@@ -14,7 +14,8 @@ hideMeta: true
 </div>
 
 <p class="lead">
-  We run lean <strong>B2B services</strong> to turn tools and ideas into results:
-  licensing &amp; subscriptions operations, <strong>automation</strong>, <strong>e-commerce</strong> enablement,
-  <strong>marketing</strong>, and <strong>design</strong>. Clear scope, quick execution, clean reporting.
+  We deliver lean <strong>B2B operations</strong> where <strong>technology</strong> meets <strong>art</strong>.
+  We manage your <strong>licensing & subscriptions</strong>, build <strong>automation</strong> that removes busywork,
+  launch <strong>e-commerce</strong> quickly, run <strong>performance marketing</strong>, and craft <strong>design</strong> that sells.
+  <br/>Fixed scope, fast sprints, transparent Annex & clean reporting.
 </p>
