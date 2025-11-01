@@ -1,0 +1,42 @@
+﻿/* --- AL&SHA polish --- */
+:root{
+  --theme: #ffffff;
+  --entry: #ffffff;
+  --primary: #111827;
+  --secondary: #6B7280;
+  --tertiary: #9CA3AF;
+  --content: #111827;
+  --border: #E5E7EB;
+}
+
+body { font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif !important; }
+.post-title, .page-title, h1,h2,h3 { letter-spacing: .2px; }
+.main { max-width: 880px !important; }
+.navbar .menu a { font-weight: 600; }
+.brand { gap: 10px; }
+
+.btn {
+  display:inline-flex; align-items:center; gap:.5rem;
+  padding:.7rem 1rem; border-radius:12px; border:1px solid var(--border);
+  text-decoration:none; font-weight:600;
+}
+.btn-primary { background:#111827; color:#fff; border-color:#111827; }
+.btn:hover { transform: translateY(-1px); }
+
+.grid {
+  display:grid; gap:18px;
+  grid-template-columns: repeat( auto-fit, minmax(240px, 1fr) );
+  margin: 18px 0 8px;
+}
+.card {
+  padding:18px; border:1px solid var(--border); border-radius:16px;
+  background:var(--entry);
+}
+.card h3 { margin:.2rem 0 .2rem; font-size:1.05rem }
+.card p { color:var(--secondary); margin:0 }
+.hero {
+  padding: 8px 0 10px;
+}
+.hero h1 { font-size: 2.2rem; margin:.2rem 0 .6rem }
+.hero p { color:var(--secondary); font-size:1.08rem }
+.footer { opacity:.9 }
