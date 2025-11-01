@@ -1,4 +1,4 @@
-﻿baseURL = "https://alandsha.github.io/alsha-site/"
+baseURL = "https://alandsha.github.io/alsha-site/"
 title = "Al & Sha"
 languageCode = "en"
 theme = "PaperMod"
@@ -9,8 +9,9 @@ canonifyURLs = true
   pagerSize = 10
 
 [params]
-  description = "Ideas in Motion  Design  Animation  Marketing  AI  B2B Ops"
+  description = "Ideas in Motion  Design  Marketing  AI  B2B Ops"
   defaultTheme = "light"
+  disableThemeToggle = true
   label = { text = "Al & Sha" }
   images = ["/images/hero.jpg"]
 
