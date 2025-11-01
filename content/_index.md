@@ -1,6 +1,6 @@
 ﻿---
 title: "Al & Sha"
-description: "Lean B2B  Technology + Art  Ops that ship"
+description: "Lean B2B studio  licensing & subscriptions ops, automation, marketing, and design."
 draft: false
 layout: "list"
 hideMeta: true
@@ -14,8 +14,7 @@ hideMeta: true
 </div>
 
 <p class="lead">
-  We deliver lean <strong>B2B operations</strong> where <strong>technology</strong> meets <strong>art</strong>.
-  We manage your <strong>licensing & subscriptions</strong>, build <strong>automation</strong> that removes busywork,
-  launch <strong>e-commerce</strong> quickly, run <strong>performance marketing</strong>, and craft <strong>design</strong> that sells.
-  <br/>Fixed scope, fast sprints, transparent Annex & clean reporting.
+  We deliver lean B2B operations where technology meets art. We manage licensing and subscriptions,
+  build automation that removes busywork, run performance marketing, and craft design that sells.
+  Fixed scope, fast sprints, transparent Annex and clean reporting.
 </p>

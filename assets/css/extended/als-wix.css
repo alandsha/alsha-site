@@ -1,17 +1,32 @@
-﻿/* Cabecera tipo Wix: logo centrado, menú debajo centrado, tipografía fina */
-.header .nav, .navbar { justify-content: center; }
-.logo { margin: 12px auto 4px auto; display: block; }         /* PaperMod pinta el logo con .logo */
-.navbar { flex-direction: column; align-items: center; gap: 6px; }
-.menu { gap: 28px; font-weight: 300; }
+﻿:root{ --content:#111827; --secondary:#6b7280; }
 
-:root{ --content:#374151; --secondary:#6B7280; }
-body{ font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif; font-weight: 300; }
-h1,h2,h3,.page-title{ font-weight: 300; letter-spacing:.3px; }
+body{ font-family: Roboto,system-ui,Segoe UI,Arial,sans-serif !important; font-weight:300; color:var(--content); }
 
-/* Hero más pequeño y centrado */
+/* Header apilado y centrado */
+.header, .navbar{ display:flex; flex-direction:column; align-items:center; }
+
+/* Muestra solo el logo, oculta texto del brand */
+.navbar .brand{ font-size:0; line-height:0; display:block; }
+.navbar .brand::before{
+  content:"";
+  display:block;
+  width:180px; height:28px;         /* ajusta si lo quieres más grande/pequeño */
+  background:url("/images/alandshalogo.png") no-repeat center / contain;
+}
+
+/* Menú centrado debajo del logo */
+.navbar .menu{ display:flex; gap:24px; justify-content:center; margin-top:10px; }
+
+/* Hero/subtítulo centrados y más limpios */
+.hero-wrap{ text-align:center; padding:14px 0 10px; }
+.hero-sub{ color:var(--secondary); margin:0 auto 10px auto; font-weight:300; }
+
+/* Imagen hero más pequeña */
 .hero-wide{ width:100vw; margin-left:50%; transform:translateX(-50%); }
-.hero-img{ width:100%; height:240px; object-fit:cover; }
-@media (min-width:1024px){ .hero-img{ height:270px; } }
+.hero-img{ width:100%; height:260px; object-fit:cover; }
 
-/* Footer centrado sutil */
-footer.footer .container{ text-align:center; opacity:.9 }
+/* Párrafo principal limpio y centrado */
+.lead{ color:var(--secondary); line-height:1.7; font-size:1.06rem; text-align:center; max-width:900px; margin:18px auto; font-weight:300; }
+
+/* Footer fino */
+footer.footer .container{ font-weight:300; color:var(--secondary); }
