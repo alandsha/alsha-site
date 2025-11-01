@@ -29,3 +29,4 @@ canonifyURLs = true
   posts = "/:slug/"
 [markup.goldmark.renderer]
   unsafe = true
+
