@@ -1,1 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Al &amp; Sha</title><link>https://www.al-sha.com/</link><description>Recent content on Al &amp; Sha</description><generator>Hugo -- 0.152.2</generator><language>en</language><atom:link href="https://www.al-sha.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://www.al-sha.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.al-sha.com/about/</guid><description>Who we are and how we work.</description></item><item><title>Contact</title><link>https://www.al-sha.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.al-sha.com/contact/</guid><description>Get a quote or start a project.</description></item><item><title>Services</title><link>https://www.al-sha.com/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.al-sha.com/services/</guid><description>Lean B2B operations where technology meets art licensing &amp;amp; subscriptions, automation, performance marketing, design, and clean reporting.</description></item><item><title>Solutions</title><link>https://www.al-sha.com/solutions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.al-sha.com/solutions/</guid><description>Practical solution patterns we implement.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Al &amp; Sha</title>
+    <link>https://al-sha.com/</link>
+    <description>Recent content on Al &amp; Sha</description>
+    <image>
+      <title>Al &amp; Sha</title>
+      <url>https://al-sha.com/images/hero.jpg</url>
+      <link>https://al-sha.com/images/hero.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <atom:link href="https://al-sha.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://al-sha.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://al-sha.com/about/</guid>
+      <description>Who we are and how we work.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://al-sha.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://al-sha.com/contact/</guid>
+      <description>Get a quote or start a project.</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>https://al-sha.com/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://al-sha.com/services/</guid>
+      <description>Lean B2B operations where technology meets art  licensing &amp;amp; subscriptions, automation, performance marketing, design, and clean reporting.</description>
+    </item>
+    <item>
+      <title>Solutions</title>
+      <link>https://al-sha.com/solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://al-sha.com/solutions/</guid>
+      <description>Practical solution patterns we implement.</description>
+    </item>
+  </channel>
+</rss>

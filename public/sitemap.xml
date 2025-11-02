@@ -1,1 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://www.al-sha.com/</loc></url><url><loc>https://www.al-sha.com/about/</loc></url><url><loc>https://www.al-sha.com/categories/</loc></url><url><loc>https://www.al-sha.com/contact/</loc></url><url><loc>https://www.al-sha.com/legal/</loc></url><url><loc>https://www.al-sha.com/services/</loc></url><url><loc>https://www.al-sha.com/solutions/</loc></url><url><loc>https://www.al-sha.com/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://al-sha.com/about/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>https://al-sha.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>https://al-sha.com/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>https://al-sha.com/contact/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>https://al-sha.com/legal/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>https://al-sha.com/services/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>https://al-sha.com/solutions/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>https://al-sha.com/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

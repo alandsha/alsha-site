@@ -1,20 +1,34 @@
 ---
 title: "Al & Sha"
-description: "Automation and clarity for small teams."
-draft: false
+description: "Lean ops, automation, and clear reporting for freelancers and small teams."
 layout: "list"
 hideMeta: true
 ---
 
-<div class="hero-wrap">
-  <div class="hero-title">Ideas in Motion</div>
-</div>
-<div class="hero-wide">
-  <img class="hero-img" src="/images/hero.jpg" alt="Hero">
-</div>
+# Automation and clarity for small teams
 
-<p class="lead">
-  We deliver lean B2B operations where technology meets art. We manage licensing and subscriptions,
-  build automation that removes busywork, run performance marketing, and craft design that sells.
-  Fixed scope, fast sprints, transparent Annex and clean reporting.
-</p>
+Lean ops that remove busywork and make results observable.  
+Fixed scope, fast sprints, transparent Annex and clean reporting.
+
+[See Services](/services/)  [Contact](/contact/)
+
+---
+
+## What we deliver
+
+**Automation Systems**  n8n/Make flows for approvals, notifications, handoffs, and receipts-to-ledger.  
+**Outcome:** fewer manual steps and an auditable changelog.
+
+**Freelancer Clarity Kit**  subscriptions annex, expense flow, invoice/payout matching, monthly export pack.  
+**Outcome:** clean records, faster closes, less back-and-forth.
+
+**E-commerce & FBA Ops**  listing templates, SKU health, 3PL/FBA playbooks, margin tracking.  
+**Outcome:** tighter SKUs and fewer surprises in replenishment.
+
+---
+
+## Annex & Reporting (clarity by default)
+- One-page status: goals, risks, next actions  
+- Monthly Annex: subscriptions, owners, renewals, cost deltas  
+- Export pack for your accountant: CSVs, PDFs, notes  
+- Rolling log of decisions and changes

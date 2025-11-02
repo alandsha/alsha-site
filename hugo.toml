@@ -6,29 +6,40 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [pagination]
-  pagerSize = 10
+pagerSize = 10
 
 [params]
-  description = "Automation and clarity for small teams."
-  defaultTheme = "light"
-  images = ["/images/hero.jpg"]
+description = "Automation and clarity for small teams."
+defaultTheme = "light"
+images = ["/images/hero.jpg"]
 
-  [params.label]
-    text = ""                          # oculta texto textual
-    icon = "/images/alandshalogo.png"  # logo
-    iconHeight = 64                    # tamaño logo
+[params.label]
+text = ""
+icon = "/images/alandshalogo.png"
+iconHeight = 64
 
 [menu]
-  [[menu.main]] name = "Services" url = "/services/" weight = 10
-  [[menu.main]] name = "Contact"  url = "/contact/"  weight = 20
+
+  [[menu.main]]
+  name = "Services"
+  url  = "/services/"
+  weight = 10
+
+  [[menu.main]]
+  name = "Contact"
+  url  = "/contact/"
+  weight = 20
 
 [minify]
-  disableXML = true
+disableXML = true
+
 [sitemap]
-  changefreq = "weekly"
-  priority = 0.7
-  filename = "sitemap.xml"
+changefreq = "weekly"
+priority = 0.7
+filename = "sitemap.xml"
+
 [permalinks]
-  posts = "/:slug/"
+posts = "/:slug/"
+
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
