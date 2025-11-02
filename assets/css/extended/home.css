@@ -1,8 +1,5 @@
-.nav { justify-content:center; gap:.9rem; }
-.post-content h1, .post-content h2, .post-content h3 { text-align:center; }
-.post-content > p, .post-content > ul, .post-content > ol { max-width:720px; margin-left:auto; margin-right:auto; }
-.post-content > h1:first-of-type { margin-top:.25rem; margin-bottom:.5rem; }
-.post-content > p a { text-decoration:underline; }
-.header .site-title { display:none !important; }       /* oculta "Al & Sha" textual */
-.header .logo img { height:64px !important; width:auto; } /* logo más grande */
-footer.footer { padding-top:10px; padding-bottom:10px; }
+/* Compactar hero y tipografía */
+.post-content > h1:first-of-type{font-weight:600;margin:8px 0 6px;font-size:1.9rem;}
+.post-content > p:first-of-type{margin:0 0 14px;max-width:760px;}
+/* Centrar copy */
+.post-content > p{margin-left:auto;margin-right:auto;line-height:1.65;}
