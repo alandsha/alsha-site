@@ -1,24 +1,12 @@
-﻿:root{ --content:#1c1f24; --muted:#6b7280; }
-body{ font-family: Roboto,system-ui,Segoe UI,Arial,sans-serif !important; font-weight:300; color:var(--content); }
-h1,h2,h3,.page-title{ font-weight:300; letter-spacing:.2px; }
-
-/* Header: logo centrado y menú debajo */
-.header .nav{ flex-direction:column; align-items:center; padding-top:10px; }
-.header .nav .logo{ margin:4px 0 6px; }
-.header .nav .logo img{ height:44px; width:auto; display:block; filter:grayscale(100%); opacity:.92; }
-.header .nav .menu{ gap:28px; justify-content:center; }
-
-/* Texto Ideas in Motion centrado y ligero */
-.hero-wrap{ text-align:center; padding:8px 0 6px; }
-.hero-sub{ font-weight:300; color:var(--muted); }
-
-/* Hero más pequeño */
+:root{ --content:#111827; --secondary:#6b7280; }
+body{ font-family: Roboto,system-ui,Segoe UI,Arial,sans-serif !important; color:var(--content); }
+.navbar{ justify-content:center; gap:18px; }
+.navbar .brand .site-title{ display:none !important; }   /* oculta "Al & Sha" textual */
+.navbar .brand img{ height:64px !important; width:auto; }/* logo más grande */
+.main{ max-width:980px !important; }
+.hero-wrap{ text-align:center; padding:8px 0 10px; }
+.hero-title{ color:var(--secondary); margin:8px 0 10px; }
 .hero-wide{ width:100vw; margin-left:50%; transform:translateX(-50%); }
-.hero-img{ width:100%; height:250px; object-fit:cover; }
-
-/* Párrafo principal limpio (sin bold) y centrado */
-.lead{ font-weight:300; color:#40454d; line-height:1.7; text-align:center; max-width:920px; margin:18px auto; }
-
-/* Menos espacio abajo: main + footer compactos */
-.main{ padding-bottom:16px !important; }
-footer.footer{ margin-top:8px !important; }
+.hero-img{ width:100%; max-height:360px; object-fit:cover; }
+.lead{ color:var(--secondary); line-height:1.7; font-size:1.05rem; text-align:center; max-width:720px; margin:18px auto; }
+footer.footer .container{ padding:16px 0 !important; }
