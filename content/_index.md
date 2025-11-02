@@ -1,6 +1,6 @@
 ﻿---
 title: "Al & Sha"
-description: "Lean B2B studio  licensing & subscriptions ops, automation, marketing, and design."
+description: "Ideas in Motion  Lean B2B ops where technology meets art."
 draft: false
 layout: "list"
 hideMeta: true
@@ -14,7 +14,5 @@ hideMeta: true
 </div>
 
 <p class="lead">
-  We deliver lean B2B operations where technology meets art. We manage licensing and subscriptions,
-  build automation that removes busywork, run performance marketing, and craft design that sells.
-  Fixed scope, fast sprints, transparent Annex and clean reporting.
+  We deliver lean B2B operations where technology meets art. We manage licensing & subscriptions, build automation that removes busywork, launch performance marketing, and craft design that sells. Fixed scope, fast sprints, a transparent Annex and clean reporting.
 </p>

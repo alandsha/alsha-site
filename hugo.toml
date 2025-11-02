@@ -1,4 +1,4 @@
-baseURL = "https://alandsha.github.io/alsha-site/"
+﻿baseURL = "https://alandsha.github.io/alsha-site/"
 title = "Al & Sha"
 languageCode = "en"
 theme = "PaperMod"
@@ -9,29 +9,19 @@ canonifyURLs = true
   pagerSize = 10
 
 [params]
-  description = "Lean B2B studio  licensing & subscriptions ops, automation, marketing, and design."
-  defaultTheme = "light"
+  description = "Ideas in Motion  Lean B2B ops where technology meets art."
   images = ["/images/hero.jpg"]
-  disableThemeToggle = true
+  defaultTheme = "light"
 
-[params.label]
-  text = ""
-  icon = "/images/alandshalogo.png"
-  iconHeight = 42
+  [params.label]
+    text = ""                            # sin texto, solo el logo
+    icon = "/images/alandshalogo.png"    # tu imagen
+    iconHeight = 44                      # altura del logo en la cabecera
 
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 20
-  [[menu.main]]
-    name = "Services"
-    url = "/services/"
-    weight = 30
+  [[menu.main]] name = "Home"     url = "/"          weight = 10
+  [[menu.main]] name = "Contact"  url = "/contact/"  weight = 20
+  [[menu.main]] name = "Services" url = "/services/" weight = 30
 
 [minify]
   disableXML = true

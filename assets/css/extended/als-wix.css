@@ -1,32 +1,24 @@
-﻿:root{ --content:#111827; --secondary:#6b7280; }
-
+﻿:root{ --content:#1c1f24; --muted:#6b7280; }
 body{ font-family: Roboto,system-ui,Segoe UI,Arial,sans-serif !important; font-weight:300; color:var(--content); }
+h1,h2,h3,.page-title{ font-weight:300; letter-spacing:.2px; }
 
-/* Header apilado y centrado */
-.header, .navbar{ display:flex; flex-direction:column; align-items:center; }
+/* Header: logo centrado y menú debajo */
+.header .nav{ flex-direction:column; align-items:center; padding-top:10px; }
+.header .nav .logo{ margin:4px 0 6px; }
+.header .nav .logo img{ height:44px; width:auto; display:block; filter:grayscale(100%); opacity:.92; }
+.header .nav .menu{ gap:28px; justify-content:center; }
 
-/* Muestra solo el logo, oculta texto del brand */
-.navbar .brand{ font-size:0; line-height:0; display:block; }
-.navbar .brand::before{
-  content:"";
-  display:block;
-  width:180px; height:28px;         /* ajusta si lo quieres más grande/pequeño */
-  background:url("/images/alandshalogo.png") no-repeat center / contain;
-}
+/* Texto Ideas in Motion centrado y ligero */
+.hero-wrap{ text-align:center; padding:8px 0 6px; }
+.hero-sub{ font-weight:300; color:var(--muted); }
 
-/* Menú centrado debajo del logo */
-.navbar .menu{ display:flex; gap:24px; justify-content:center; margin-top:10px; }
-
-/* Hero/subtítulo centrados y más limpios */
-.hero-wrap{ text-align:center; padding:14px 0 10px; }
-.hero-sub{ color:var(--secondary); margin:0 auto 10px auto; font-weight:300; }
-
-/* Imagen hero más pequeña */
+/* Hero más pequeño */
 .hero-wide{ width:100vw; margin-left:50%; transform:translateX(-50%); }
-.hero-img{ width:100%; height:260px; object-fit:cover; }
+.hero-img{ width:100%; height:250px; object-fit:cover; }
 
-/* Párrafo principal limpio y centrado */
-.lead{ color:var(--secondary); line-height:1.7; font-size:1.06rem; text-align:center; max-width:900px; margin:18px auto; font-weight:300; }
+/* Párrafo principal limpio (sin bold) y centrado */
+.lead{ font-weight:300; color:#40454d; line-height:1.7; text-align:center; max-width:920px; margin:18px auto; }
 
-/* Footer fino */
-footer.footer .container{ font-weight:300; color:var(--secondary); }
+/* Menos espacio abajo: main + footer compactos */
+.main{ padding-bottom:16px !important; }
+footer.footer{ margin-top:8px !important; }
