@@ -1,22 +1,48 @@
-﻿---
-title: "B2B Services"
-description: "Technology + Art, delivered as operations."
+---
+title: "Services"
+description: "Lean B2B operations where technology meets art  licensing & subscriptions, automation, performance marketing, design, and clean reporting."
 draft: false
 ---
 
-<h2 class="section-title">What we run for you</h2>
+## What we do
+We run lean B2B operations that turn tools and ideas into results. Scope stays tight, timelines stay short, and reporting stays clean.
 
-<ul class="lead" style="text-align:left;max-width:820px;margin:0 auto">
-  <li><strong>Licensing & Subscriptions Ops</strong>  provisioning, renewals, vendor coordination, proof-of-purchase traceability, monthly Annex & reconciliation.</li>
-  <li><strong>Automation</strong>  n8n/Make workflows, integrations, AI-assisted operations, dashboards and reporting pipelines.</li>
-  <li><strong>E-commerce Enablement</strong>  POD/FBA/affiliates, storefronts & payment gateways, ops playbooks, fulfillment hand-off.</li>
-  <li><strong>Performance Marketing</strong>  content & paid media, GA4/Looker measurement, CRO with tight feedback loops.</li>
-  <li><strong>Design for Conversion</strong>  brand assets, landing pages, commercial collateral and ads that align with metrics.</li>
-</ul>
+### Licensing & Subscriptions Operations
+- Account provisioning and access hygiene
+- Renewals calendar, vendor coordination, and negotiations
+- Proof-of-purchase traceability (receipts, PO alignment)
+- Monthly Annex: itemized tools, owners, usage notes, delta vs prior month  
+Outcome: fewer surprises, one owner per tool, and a simple annex you can read in minutes.
 
-<h3 class="section-title" style="margin-top:28px">How we work</h3>
-<ul class="lead" style="text-align:left;max-width:820px;margin:0 auto">
-  <li><strong>Lean sprints</strong> (12 weeks) with fixed scope and clear deliverables.</li>
-  <li><strong>Annex + receipts</strong> every month; costs reconciled and searchable.</li>
-  <li><strong>Automation-first</strong>: remove manual steps, document what remains.</li>
-</ul>
+### Automation & Integrations
+- Workflow design with n8n/Make and lightweight glue code
+- Approvals, notifications, and handoffs across apps you already use
+- Data syncs to sheets/DBs for quick reporting
+- AI-assisted ops for drafting, QA and triage (measured, not magic)  
+Outcome: repeatable processes, fewer clicks, observable results.
+
+### Performance Marketing & Analytics
+- Slim testing plans and creative iteration cadence
+- Campaign setup and housekeeping (naming, UTM, exclusions)
+- Measurement with GA4 / Looker Studio dashboards
+- Conversion-rate quick wins and landing checks  
+Outcome: a small, honest funnel you can actually maintain.
+
+### Design & Brand Systems
+- Brand essentials (logo usage, color/typography tokens)
+- Sales and campaign collateral, ad sets, and landing blocks
+- Asset libraries with versioning and handover notes  
+Outcome: consistent visuals, faster production, fewer re-makes.
+
+### Reporting & Annex
+- One-page status (goals, risks, next actions)
+- Annex for costs, assets, links, and receipts
+- Rolling log of decisions and changes  
+Outcome: you always know what changed, why, and whats next.
+
+## Ways to work
+**Quick Sprint (412 weeks)**  Focused objective, fixed scope, visible outcome. Good for kick-offs or audits.  
+**Lean Retainer (month to month)**  A steady lane for ops + automation + reporting. Flexible, capped hours, weekly check-ins.  
+**Project Package**  Defined deliverables (e.g., tooling annex + renewals revamp + two automations + dashboard).
+
+Ready to move? Tell us your objective and your tool list  well reply with a lean plan and timeline.
